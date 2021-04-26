@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$FUCK | Give no fucks</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./middlefingerpov_artboard_6_4x.png"
+    />
+    <link
+      rel="preload"
+      href="./basiercircle-regular-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./basiercircle-semibold-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./basiercircle-bold-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      async
+      defer
+      data-domain="flowyour.money"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (window.plausible.q = window.plausible.q || []).push(arguments);
+        };
+    </script>
+    <!-- Reddit Pixel -->
+    <script>
+      !(function (w, d) {
+        if (!w.rdt) {
+          var p = (w.rdt = function () {
+            p.sendEvent
+              ? p.sendEvent.apply(p, arguments)
+              : p.callQueue.push(arguments);
+          });
+          p.callQueue = [];
+          var t = d.createElement('script');
+          (t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0);
+          var s = d.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        }
+      })(window, document);
+      rdt('init', 't2_97fuzz31');
+      rdt('track', 'PageVisit');
+    </script>
+    <!-- DO NOT MODIFY -->
+    <!-- End Reddit Pixel -->
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '717785298905756');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- start Gist JS code-->
+    <script>
+      (function (d, h, w) {
+        var gist = (w.gist = w.gist || []);
+        gist.methods = ['trackPageView', 'identify', 'track', 'setAppId'];
+        gist.factory = function (t) {
+          return function () {
+            var e = Array.prototype.slice.call(arguments);
+            e.unshift(t);
+            gist.push(e);
+            return gist;
+          };
+        };
+        for (var i = 0; i < gist.methods.length; i++) {
+          var c = gist.methods[i];
+          gist[c] = gist.factory(c);
+        }
+        (s = d.createElement('script')),
+          (s.src = 'https://widget.getgist.com'),
+          (s.async = !0),
+          (e = d.getElementsByTagName(h)[0]),
+          e.appendChild(s),
+          s.addEventListener('load', function (e) {}, !1),
+          gist.setAppId('zp7bujzb'),
+          gist.trackPageView();
+      })(document, 'head', window);
+    </script>
+    <!-- end Gist JS code-->
+    <!-- place this script tag after the Gist tracking code -->
+    <script>
+      (function () {
+        /* Add this class to any elements you want to use to open Gist chat
+         *
+         * Examples:
+         * - <a class="gist-open-chat">Questions? We're here to help!</a>
+         * - <button class="gist-open-chat">Chat now!</button>
+         *
+         * You can have any additional classes on those elements that you would like.
+         */
+        var GIST_CHAT_SELECTOR = '.gist-open-chat';
+
+        function ready(fn) {
+          if (document.readyState != 'loading') {
+            fn();
+          } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', fn);
+          } else {
+            document.attachEvent('onreadystatechange', function () {
+              if (document.readyState != 'loading') fn();
+            });
+          }
+        }
+
+        function forEachElement(selector, fn) {
+          var elements = document.querySelectorAll(selector);
+          for (var i = 0; i < elements.length; i++) fn(elements[i], i);
+        }
+
+        /* Code to trigger the chat when clicking a link or a button */
+        ready(function () {
+          document.addEventListener('gistChatReady', function () {
+            forEachElement(GIST_CHAT_SELECTOR, function (element) {
+              element.addEventListener('click', function (event) {
+                event.preventDefault();
+                /* comment the below line and uncomment the next time, if you want to pre fill the response box with some text */
+                gist.chat('openNewConversation');
+                //gist.chat('openNewConversation', 'INSERT PRE-POPULATED CONTENT');
+                return false;
+              });
+            });
+          });
+        });
+      })();
+    </script>
+    <!-- ABtesting.ai Code -->
+    <link rel="preconnect" href="https://external.abtesting.ai">
+    <script src="https://js.abtesting.ai/ab.js?userid=1583"></script>
+    <script>function converted() { plausible.apply(this, arguments); AB.converted(); }</script>
+    <!-- End ABtesting.ai Code -->
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#" target="_self" class="logo header__logo">
+          <h1 style="font-size: 5rem; font-weight: bold;">FUCK</h1>
+        </a>
+        <a
+          href="https://t.me/bscfuck"
+          class="btn btn--primary btn--sm"
+          >Telegram</a
+        >
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="page-home">
+      <!-- Section 1 -->
+      <section class="section-1">
+        <div class="container">
+          <div class="section-1__content">
+            <div class="section-1__block u-spacing-large">
+              <h2 class="section-1__title u-title-primary">
+                Make money. Give no fucks.
+              </h2>
+              <div class="section-1__text u-text-primary">
+                $FUCK is here to fuck everything up. Every transacitons applies a fee of 8% that goes to liquidity and 2% that goes to all the holders.
+              </div>
+              <a
+                href="https://twitter.com/nofvckstoken"
+                class="btn btn--primary"
+                >Twitter</a
+              >
+            </div>
+            <img
+              src="./img.jpg"
+              alt="img"
+              class="section-1__img"
+            />
+          </div>
+        </div>
+      </section>
+      
+
+  </body>
+</html>
